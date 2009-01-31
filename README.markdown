@@ -25,11 +25,11 @@ Now you may view your site at `http://<appname>.heroku.com`
 
 The small amount of code is heavily commented. If you have questions
 or comments please use [the channels provided](http://www.sinatrarb.com/contributing.html) by the Sinatra community as
-we at Heroku are heavily involed in the Sinatra and can help you there
+we at Heroku are heavily involved in the Sinatra and can help you there
 or on our mailing list (http://groups.google.com/group/heroku) if you
 have non Sinatra questions.
 
-See [these guidlines](http://www.sinatrarb.com/contributing.html) for
+See [these guidelines](http://www.sinatrarb.com/contributing.html) for
 contributing or bugs.
 
 Happy Development and Deploying!
