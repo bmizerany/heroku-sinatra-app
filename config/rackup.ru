@@ -1,16 +1,3 @@
-require 'rubygems'
-
-# We will need to require Sinatra to gain
-# access to the Sinatra environment for 
-# bootstrapping before loading the application
-require 'sinatra'
-
-# This will soon not be needed on Heroku.
-# For now it's important that you set the 
-# environment before requiring the application
-# to allow `configure` to work properly
-set :environment, :production
-
 # This is for convenice.  The defacto Sinatra standard
 # is to name your application file after it's parent
 # directory

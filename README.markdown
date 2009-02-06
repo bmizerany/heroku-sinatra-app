@@ -11,11 +11,15 @@ it](http://heroku.com/docs/index.html#_manage_keys_on_heroku)
 
 Now, clone and deploy!
 
-`projects $ git clone git://github.com/sinatra/heroku-sinatra-app`
+`projects $ wget http://github.com/sinatra/heroku-sinatra-app/tarball/master`
 
-`projects $ cd heroku-sinatra-app`
+`projects $ tar xzvf sinatra-heorku-sinatra-app-<SHA>.tar.gz`
+
+`projects $ mv sinatra-heroku-sinatra-app-<SHA>/ my_new_app/`
 
 `my_new_app $ heroku create <optional appname> --remote`
+
+`my_new_app $ mv heroku-sinatra-app.r my_new_app.rb`
 
 `my_new_app $ git push heroku master`
 
