@@ -2,28 +2,17 @@
 
 **NOTE** This is for heroku.com and not herokugarden.com
 
-You'll first need a [Heroku account](http://heroku.com/signup).  Once you have an account, install
-the gem `sudo gem install heroku`.  If you do not have an SSH key
+* Create an acount in seconds at [Heroku](http://heroku.com/signup).
+* Install the gem `sudo gem install heroku`.
+* If you do not have an SSH key
 you'll need to [generate
 one](http://heroku.com/docs/index.html#_setting_up_ssh_public_keys)
 and [tell Heroku about
 it](http://heroku.com/docs/index.html#_manage_keys_on_heroku)
-
-Now, clone and deploy!
-
-`projects $ wget http://github.com/sinatra/heroku-sinatra-app/tarball/master`
-
-`projects $ tar xzvf sinatra-heorku-sinatra-app-<SHA>.tar.gz`
-
-`projects $ mv sinatra-heroku-sinatra-app-<SHA>/ my_new_app/`
-
-`my_new_app $ heroku create <optional appname> --remote`
-
-`my_new_app $ mv heroku-sinatra-app.r my_new_app.rb`
-
-`my_new_app $ git push heroku master`
-
-Now you may view your site at `http://<appname>.heroku.com`
+* Clone this repo `git clone git://github.com/sinatra/heroku-sinatra-app [appname]`
+* `cd /path/to/project`
+* `heroku create [optional-app-name]` (You can rename your app with `heroku rename`)
+* `git push heroku master`
 
 **NOTES**
 
