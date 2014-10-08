@@ -13,6 +13,7 @@ it](http://heroku.com/docs/index.html#_manage_keys_on_heroku)
 * `cd /path/to/project`
 * `heroku create [optional-app-name]` (You can rename your app with `heroku rename`)
 * `git push heroku master`
+* `heroku ps:scale web=1`
 
 **NOTES**
 
